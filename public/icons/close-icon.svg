@@ -1,0 +1,13 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mid Close Icon" clip-path="url(#clip0_345_2)">
+<g id="Xicon">
+<path id="Xone" d="M15 1L1 15" stroke="#212529" stroke-linecap="round"/>
+<path id="Xtwo" d="M1 1L15 15" stroke="#212529" stroke-linecap="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_345_2">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>

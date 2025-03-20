@@ -1,0 +1,148 @@
+:root {
+  --content-width: 800px;
+  --section-padding: 50px;
+
+  --clr-background: #fdfcfa;
+  --clr-main: #212529;
+  --clr-theme: #ac8e68;
+  --clr-light: #f5ece3;
+  --clr-text: #595959;
+
+  --border-radius: 8px;
+  --global-padding: 25px;
+  --global-gap: 25px;
+  --inner-padding: 10px;
+  --inner-gap: 10px;
+  --transition: all 0.3s ease-in-out;
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url(/fonts/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: "Inter-Regular";
+  src: url(/fonts/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: "Inter-Light";
+  src: url(/fonts/Inter-Light.ttf);
+}
+@font-face {
+  font-family: "Inter-Thin";
+  src: url(/fonts/Inter-Thin.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  overflow-x: hidden !important;
+  background-color: var(--clr-white);
+}
+
+/* HEADINGS */
+
+h1,
+h2,
+h3 {
+  line-height: 1;
+  font-family: "Inter-Bold";
+  color: var(--clr-black);
+  text-align: start;
+}
+h1 {
+  font-size: 55px;
+}
+h2 {
+  font-size: 45px;
+}
+h3 {
+  font-size: 30px;
+}
+
+/* TEXT */
+
+p,
+li,
+input,
+summary,
+button {
+  line-height: 1.8;
+  font-family: "Inter-Light";
+  font-size: 16px;
+  color: var(--clr-black);
+}
+a,
+b {
+  line-height: 1.8;
+  font-family: "Inter-Regular";
+  font-size: 16px;
+  color: var(--clr-black);
+  text-decoration: none;
+}
+
+/* SCROLLBARS */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--clr-theme);
+}
+
+/* APP */
+
+.app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-block: var(--section-padding);
+  padding-inline: var(--global-gap);
+}
+section .container {
+  width: min(var(--content-width), 100%);
+}
+
+/* MEDIA QUERIES  */
+
+@media screen and (max-width: 700px) {
+  :root {
+    --section-padding: 40px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  p,
+  li,
+  input,
+  summary,
+  button {
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  a,
+  b {
+    line-height: 1.6;
+    font-size: 16px;
+  }
+}

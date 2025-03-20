@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "cover": "/images/books/jkrowling_harrypotter_andthephilosophersstone.png",
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "type": "książka",
+    "description": "Harry odkrywa, że jest czarodziejem, i trafia do Hogwartu. Razem z Ronem i Hermioną próbuje powstrzymać Voldemorta przed zdobyciem Kamienia Filozoficznego. W świecie magii czekają na niego przyjaźń, tajemnice i niebezpieczeństwa."
+  },
+  {
+    "id": 1,
+    "cover": "/images/books/jjrtolkien_thehobbit.png",
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "type": "książka",
+    "description": "Bilbo Baggins wyrusza z krasnoludami, by odzyskać skarb strzeżony przez smoka Smauga. Po drodze stawia czoła wielu niebezpieczeństwom i znajduje tajemniczy pierścień. Z nieśmiałego hobbita staje się bohaterem."
+  },
+  {
+    "id": 2,
+    "cover": "/images/books/georgeorwell_1984.png",
+    "title": "1984",
+    "author": "George Orwell.",
+    "type": "nowela",
+    "description": "Winston Smith żyje w świecie totalnej kontroli. Potajemnie buntuje się przeciwko Partii, ale szybko odkrywa, że nie ma ucieczki. Orwell ostrzega przed inwigilacją i manipulacją prawdą."
+  }
+]

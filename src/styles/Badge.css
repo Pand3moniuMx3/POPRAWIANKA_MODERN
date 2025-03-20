@@ -1,0 +1,9 @@
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 8px;
+  font-size: 12px;
+  border: none;
+  border-radius: var(--border-radius);
+}
