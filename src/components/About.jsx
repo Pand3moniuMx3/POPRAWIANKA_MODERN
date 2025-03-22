@@ -8,7 +8,7 @@ const tabContent = [
   },
   {
     title: "Certyfikat",
-    image: "/images/certyfikat.jpg",
+    image: "/images/certyfikat.PNG",
   },
   {
     title: "Zawód",
